@@ -8,21 +8,10 @@ import MarysvilleImage from "../public/assets/HistoricalMarysville.jpg"
 import ButtonPrimary from "./misc/ButtonPrimary";
 
 const features = [
-  "• Improved sidewalks",
-  "• Solutions for housing crisis",
-  "• Solutions for homelessness crisis",
-  "• More provincial support",
-  "• Information sharing",
-  "• Financial accountability",
-  "• Pay control for local government",
-  "• Quest board",
-  "• Fredericton job programs",
-  "• Infrastructure improvement",
-  "• Information access",
-  "• City collaboration",
-  "• WIFI access",
-  "• Support for non-for profit organizations",
-  "• Support for local business of any size",
+  "Homelessness & poverty.",
+"Infrastructure issues such as we are seeing with the Marysville Bridge. There have also been growing concerns with the quality of our sidewalks, especially during winter months.",
+"Development of a strong business and employee ecosystem for the Fredericton Region.",
+"Councilor wage control",
 ]
 
 const Feature = () => {
@@ -49,17 +38,18 @@ const Feature = () => {
           </motion.div>
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper>
-
-        <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
+        <motion.div className="flex flex-col justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
 
           <p className="my-2 text-black-500">
-            As councillor my commitment to Marysville and the city of Fredericton is to work towards providing:
+          My name is Jacob Cloutier and I am running for the position of councilor for our beloved Marysville (Ward 5).
+          <br/><br/>
+          If elected, there are four key areas I plan to address:
           </p>
           <ul className="mb-6 text-black-500 self-start list-inside ml-8">
             {features.map((feature, index) => (
               <motion.li
-                className="relative custom-list"
-                custom={{duration: index>1?index*0.5:1}}
+                className="relative custom-list mb-2 list-disc list-outside"
+                custom={{delay: index*0.1}}
                 variants={scrollAnimation}
                 key={feature}
                 whileHover={{
@@ -73,10 +63,24 @@ const Feature = () => {
               )
             )}
           </ul>
-          <ButtonPrimary href="/platform">Learn More</ButtonPrimary>
+          <ButtonPrimary props={{}} href="/platform">Learn More</ButtonPrimary>
         </motion.div>
         </ScrollAnimationWrapper>
       </div>
+      <ScrollAnimationWrapper>
+        <motion.div className="flex flex-col justify-center ml-auto w-full my-12" variants={scrollAnimation}>
+          <p className='mb-4'>
+            I will be visiting door to door throughout 2024 to learn about your needs and desires for Marysville and Fredericton in general. This will help me to focus on what matters most to you. I intend to follow up in 2025 and 2026 with additional outreach and surveys to make sure I am on track and stay aligned with community needs.
+            <br/><br/>
+            If elected, I will continue to listen and stay on course to support all of Ward 5 and Fredericton.
+            <br/><br/>
+            Between now and the election day  I will be meeting with as many local leaders and professionals as I can that effect or have insight about our city and talk about what we are doing right and what we could do better , my goal will be to meet with over 100 of these individuals at this stage I have met with 15. 
+            <br/><br/>
+            Please take a few minutes to fill out the survey on the Survey page. Thank you!
+            </p>
+          <ButtonPrimary props={{target:"_blank"}} href="https://docs.google.com/forms/d/e/1FAIpQLScpOHV8b15clE_aoBj7Jo_BqqpUWUu49Uhgg27mJFD16yPQOw/viewform">Give Your Feedback</ButtonPrimary>
+        </motion.div>
+      </ScrollAnimationWrapper>
     </div>
   );
 };
