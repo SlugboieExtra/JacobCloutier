@@ -74,7 +74,7 @@ const Header = () => {
             )}
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            <ButtonOutline href='/help'>How To Help</ButtonOutline>
+            <ButtonOutline target="_blank" href='https://calendly.com/jacobcloutier/30min'>Meet With Me</ButtonOutline>
 
             {menuActive?
             <a className="lg:hidden m-2 hover:text-slate-600 transition-all cursor-pointer"

@@ -3,7 +3,35 @@ import Image from 'next/image'
 import LogoImage from "../../public/assets/Logo.svg";
 import Facebook from "../../public/assets/Icon/facebook.svg";
 import LinkedIn from "../../public/assets/Icon/icons8-linkedin.svg";
+import Link from "next/link";
 
+const navLinks = [
+  {
+    title : "Home",
+    link : "/",
+    target:""
+  },
+  {
+    title : "Platform",
+    link : "/platform",
+    target:""
+  },
+  {
+    title : "Contact Me",
+    link : "/contact",
+    target:""
+  },
+  {
+    title : "Submit Survay",
+    link : "https://docs.google.com/forms/d/e/1FAIpQLScpOHV8b15clE_aoBj7Jo_BqqpUWUu49Uhgg27mJFD16yPQOw/viewform",
+    target:"_blank"
+  },
+  {
+    title : "Schedule Meeting",
+    link : "https://calendly.com/jacobcloutier/30min",
+    target:"_blank"
+  }
+]
 
 const Footer = () => {
   return (
@@ -43,47 +71,25 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <p className="text-gray-400">©{new Date().getFullYear().toString()} - Jacob Cloutier</p>
+          <p className="text-gray-400">©{new Date().getFullYear().toString()} - Rob Gray @ RG Creative</p>
         </div>
-        <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
+        <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-12 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">Navigation</p>
           <ul className="text-black-500 ">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Safe Sidewalks Project{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              2026 City Counsil Election{" "}
-            </li>
+            {navLinks.map((link,index)=>(
+            <li key={index} className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+              <Link
+              key={index}
+              href={link.link}
+            >
+              {link.title}
+            </Link>
+              </li>
+            ))}
+
           </ul>
         </div>
-        <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">How to Engage</p>
-          <ul className="text-black-500">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Volunteer{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Donate to the Safe Sidewalk Project{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Sign Petition for the Safe Sidewalks{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Fill out Ward 5 Grievence Survay{" "}
-            </li>
-          </ul>
-        </div>
-        <div className="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Learn More</p>
-          <ul className="text-black-500">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              About Jacob Cloutier{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Election Platform{" "}
-            </li>
-          </ul>
-        </div>
+        
       </div>
     </div>
   );

@@ -74,7 +74,7 @@ export default function Home() {
         header="Community Concerns Survay"
         button={{
           title:"Have Your Voice Heard",
-          href:"http://gofred.ca/services/zone",
+          href:"https://docs.google.com/forms/d/e/1FAIpQLScpOHV8b15clE_aoBj7Jo_BqqpUWUu49Uhgg27mJFD16yPQOw/viewform",
           target:"_blank"
         }}
       >
