@@ -5,6 +5,11 @@ import BodySectionWithCard from "../components/Layout/BodySectionWithCard";
 import C2A from "../components/Layout/C2A";
 import Card from "../components/Layout/Card";
 
+import cityHallImage from "../public/assets/fredericton-city-hall.avif"
+import newDevelopmentImage from "../public/assets/new-housing-development-brampton.avif"
+import snowRemovalImage from "../public/assets/snow-removal.jpg"
+import engagueFrederictonImage from "../public/assets/logo_resize_pjeg.jpg"
+
 export default function platform() {
 
   const platformList = [
@@ -39,7 +44,7 @@ export default function platform() {
             header={"Fredericton councillors vote for pay raise"}
             button={{ title: "Read More", href: "https://www.cbc.ca/news/canada/new-brunswick/fredericton-city-hall-remuneration-1.6310576#:~:text=City%20councillors%20in%20Fredericton%20voted,near%2023%20per%20cent%20raise.", target: "_blank" }}
             img={{
-              src: "https://i.cbc.ca/1.3832351.1666669136!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/fredericton-city-hall.jpg",
+              src: cityHallImage,
               alt: "Fredericton councillors held regular meeting at city hall.",
               width: 720,
               height: 405,
@@ -68,7 +73,7 @@ export default function platform() {
         card={
           <Card
             header="Transparency lacking in implementation of N.B. housing strategy, auditor general says"
-            img={{src:"https://i.cbc.ca/1.6670033.1715794688!/cumulusImage/httpImage/image.jpg_gen/derivatives/16x9_780/new-housing-development-brampton.jpg",width:720, height: 405, alt:"Construction workers on scaffolding in front of new housing build"}}
+            img={{src:newDevelopmentImage, width:720, height: 405, alt:"Construction workers on scaffolding in front of new housing build"}}
             button={{title:"Read More", href:"https://www.cbc.ca/news/canada/new-brunswick/auditor-general-housing-new-brunswick-1.7223805", target:"_blank"}}
           >
             Paul Martin says completion timelines, specific costs missing from action items to create more housing
@@ -86,7 +91,7 @@ export default function platform() {
         card={
           <Card
             header="Snow way, snow how? How Fredericton refuses to make winter sidewalks accessible"
-            img={{src:"https://nbmediacoop.org/wp-content/uploads/2023/02/snow-removal-750x536.jpg",width:720, height: 405, alt:"A sidewalk in downtown Fredericton by the legislature. Photo: Kyra Wilson"}}
+            img={{src:snowRemovalImage,width:720, height: 405, alt:"A sidewalk in downtown Fredericton by the legislature. Photo: Kyra Wilson"}}
             button={{title:"Read More", href:"https://nbmediacoop.org/2023/02/23/commentary-snow-way-snow-how-how-fredericton-refuses-to-make-winter-sidewalks-accessible/", target:"_blank"}}
           >
             Winter snow removal is an issue every year and yet, somehow, the city of Fredericton relegates sidewalks to the back burner...
@@ -108,7 +113,7 @@ export default function platform() {
           <Card
             header="Engage Fredericton is our City's new public engagement platform."
             img={{
-              src:"https://s3.ca-central-1.amazonaws.com/ehq-production-canada/4a44efc1b94f361de0697b835828d251ec002f91/original/1597693254/logo_resize_pjeg.jpg_5722477ab184305bb243bcdd47e0fada?1597693254",
+              src:engagueFrederictonImage,
               alt:"Engage Fredericton",
               width:720,
               height:200,

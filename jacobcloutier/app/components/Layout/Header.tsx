@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import ButtonOutline from "../misc/ButtonOutline.";
 import LogoImage from "../../public/assets/Logo.svg";
@@ -11,7 +11,6 @@ import { usePathname } from 'next/navigation'
 
 const Header = () => {
   const pathName = usePathname();
-  const [scrollActive, setScrollActive] = useState(false);
   const [menuActive, setMenuActive] = useState(false);
   const navLinks = [
     {
@@ -27,27 +26,17 @@ const Header = () => {
       link : "/contact"
     }
   ]
-
-  const ResetMenu = () => {
-    setMenuActive(false)
-  }
-
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      setScrollActive(window.scrollY > 20);
-    });
-  }, []);
+  
   return (
     <>
       <header
         className={
-          "fixed top-0 w-full  z-30 bg-white-500 transition-all pt-0" +
-          (scrollActive ? " shadow-md":'')
+          "fixed top-0 w-full  z-30 bg-white-500 transition-all pt-0 shadow-md"
         }
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
-            <Link href={'/'} onClick={ResetMenu}> 
+            <Link href={'/'} onClick={()=>setMenuActive(false)}> 
               <Image
               src={LogoImage}
               className="h-12 w-auto"
@@ -61,7 +50,7 @@ const Header = () => {
               <Link
               key={id}
               href={navLink.link}
-              onClick={ResetMenu}
+              onClick={()=>setMenuActive(false)}
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (pathName === navLink.link
@@ -74,7 +63,7 @@ const Header = () => {
             )}
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            <ButtonOutline target="_blank" href='https://calendly.com/jacobcloutier/30min'>Meet With Me</ButtonOutline>
+            <ButtonOutline addClass="px-2 sm:px-5" target="_blank" href='https://calendly.com/jacobcloutier/30min'>Meet With Me</ButtonOutline>
 
             {menuActive?
             <a className="lg:hidden m-2 hover:text-slate-600 transition-all cursor-pointer"
@@ -97,7 +86,7 @@ const Header = () => {
               <Link
               key={id}
               href={navLink.link}
-              onClick={ResetMenu}
+              onClick={()=>setMenuActive(false)}
               className={
                 "mx-1 sm:mx-2 cursor-pointer text-center px-3 sm:px-4 py-2 w-auto block items-center text-s border-t-2 transition-all " +
                 (pathName === navLink.link
