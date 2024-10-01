@@ -45,13 +45,13 @@ export default function platform() {
               height: 405,
             }}>
             <p>
-              Councillors' earnings will go from $26,000 a year to $35,000, an increase of nearly 35 per cent...
+              Councillors&apos; earnings will go from $26,000 a year to $35,000, an increase of nearly 35 per cent...
             </p>
           </Card>
         }>
         <h3 className="mb-2 mt-6 text-xl tracking-tight font-bold text-black-500">Councillor Wage Control</h3>
         <p>
-          The recent decision by Fredericton's councillors and mayor to approve a pay raise for themselves (34% increase) is concerning to me. I share Councilor Hicks' sentiment that this was not the appropriate time or manner to address such a matter. I believe there should be a structured system in place to regulate the wages of councilors and the mayor. In a gesture of goodwill, I am committed to addressing this issue and hopefully even reverse the decision until a more appropriate time or until a structured system is in place.
+          The recent decision by Fredericton&apos;s councillors and mayor to approve a pay raise for themselves (34% increase) is concerning to me. I share Councilor Hicks&apos; sentiment that this was not the appropriate time or manner to address such a matter. I believe there should be a structured system in place to regulate the wages of councilors and the mayor. In a gesture of goodwill, I am committed to addressing this issue and hopefully even reverse the decision until a more appropriate time or until a structured system is in place.
         </p>
         <h3 className="mb-2 mt-6 text-xl tracking-tight font-bold text-black-500">Investing in Growth</h3>
         <p>
@@ -77,7 +77,7 @@ export default function platform() {
         <h3 className="mb-2 mt-6 text-xl tracking-tight font-bold text-black-500">Provincial Support</h3>
         <p>As May 2026 approaches I am preparing to run for Ward 5 city Council. Change is needed as our city has faced growing challenges in social programs such as welfare and housing, and we should not be left to shoulder this burden alone. As your councilor, I’ll work to make the province more accountable. We need better cooperation between city and provincial authorities to address these pressing issues. Together, we will advocate for a fairer distribution of resources and support for our community.</p>
         <h3 className="mb-2 mt-6 text-xl tracking-tight font-bold text-black-500">Roads & bridges</h3>
-        <p>The ongoing problems with several bridges and roads in recent years have been a significant concern that requires urgent resolution. Many of these issues seem to stem from provincial jurisdiction over these bridges and roads. I believe it's time for Fredericton to negotiate with the province to gain control over these infrastructures, allowing us to ensure their proper maintenance and upkeep. </p>
+        <p>The ongoing problems with several bridges and roads in recent years have been a significant concern that requires urgent resolution. Many of these issues seem to stem from provincial jurisdiction over these bridges and roads. I believe it&apos;s time for Fredericton to negotiate with the province to gain control over these infrastructures, allowing us to ensure their proper maintenance and upkeep. </p>
         <h3 className="mb-2 mt-6 text-xl tracking-tight font-bold text-black-500">Provincial Respect</h3>
         <p>It may seem I do not have respect for our province and government officials within the province but I really do have the greatest respect for them and the hard choices they need to make but they need to be reminded of their duty to their cities.</p>
       </BodySectionWithCard>
@@ -93,9 +93,9 @@ export default function platform() {
           </Card>}
         >
           <h3 className="mb-2 mt-6 text-xl tracking-tight font-bold text-black-500">Sidewalks</h3>
-          <p>The City has struggled to prioritize addressing the glaring issue of our sidewalks during the winter months. These pathways are relied upon by some of our most vulnerable residents for travel, yet they often become dangerous and impassable. If voted councilor, I am committed to dedicating the necessary time and effort to tackle this issue head-on. I have already engaged with engineers who believe there are simple and cost-effective solutions available. They are prepared to draft these plans for as little as $1000. I am determined to raise the funds required to bring these plans to the city immediately, rather than delaying any further. It's imperative that we take action now to address this problem and ensure the safety and accessibility of our city for all residents.</p>
+          <p>The City has struggled to prioritize addressing the glaring issue of our sidewalks during the winter months. These pathways are relied upon by some of our most vulnerable residents for travel, yet they often become dangerous and impassable. If voted councilor, I am committed to dedicating the necessary time and effort to tackle this issue head-on. I have already engaged with engineers who believe there are simple and cost-effective solutions available. They are prepared to draft these plans for as little as $1000. I am determined to raise the funds required to bring these plans to the city immediately, rather than delaying any further. It&apos;s imperative that we take action now to address this problem and ensure the safety and accessibility of our city for all residents.</p>
           <h3 className="mb-2 mt-6 text-xl tracking-tight font-bold text-black-500">Roads & Bridges</h3>
-          <p>The ongoing problems with several bridges and roads in recent years have been a significant concern that requires urgent resolution. Many of these issues seem to stem from provincial jurisdiction over these bridges and roads. I believe it's time for Fredericton to negotiate with the province to gain control over these infrastructures, allowing us to ensure their proper maintenance and upkeep. </p>
+          <p>The ongoing problems with several bridges and roads in recent years have been a significant concern that requires urgent resolution. Many of these issues seem to stem from provincial jurisdiction over these bridges and roads. I believe it&apos;s time for Fredericton to negotiate with the province to gain control over these infrastructures, allowing us to ensure their proper maintenance and upkeep. </p>
       </BodySectionWithCard>
       <BodySectionWithCard
         header="Access to Information"
@@ -119,12 +119,12 @@ export default function platform() {
               target:"_blank"
             }}
           >
-            <p>Welcome! Engage Fredericton is our City's new public engagement platform. We want to hear what you have to say. Take a look at the projects below, and let your voice be heard!</p>
+            <p>Welcome! Engage Fredericton is our City&apos;s new public engagement platform. We want to hear what you have to say. Take a look at the projects below, and let your voice be heard!</p>
           </Card>
         }
       >
         <h3 className="mb-2 mt-6 text-xl tracking-tight font-bold text-black-500">Community Information Sharing</h3>
-        <p>I believe there's room for improvement in how Fredericton educates its residents about city events and activities. Engage Fredericton is a valuable resource, but the city hasn't effectively encouraged citizen participation. People seek information conveniently, and unless we adapt to deliver it when, how, and where they prefer, our engagement efforts will fall short.</p>
+        <p>I believe there&apos;s room for improvement in how Fredericton educates its residents about city events and activities. Engage Fredericton is a valuable resource, but the city hasn&apos;t effectively encouraged citizen participation. People seek information conveniently, and unless we adapt to deliver it when, how, and where they prefer, our engagement efforts will fall short.</p>
         <h3 className="mb-2 mt-6 text-xl tracking-tight font-bold text-black-500">Wifi Access</h3>
         <p>As part of my commitment to enhancing connectivity and access to information across our community, I would seek to expand the Fredericton free Wi-Fi program to include Maryville. This initiative would bridge what I see as a gap with the current service, ensuring that residents in all parts of our city have equal access to online resources for education, business, and communication. By expanding free Wi-Fi to Maryville, we will support local businesses, increase access to essential services, and create more opportunities for residents to engage with their community and the broader world. This is a crucial step towards making Fredericton a more connected and inclusive place.</p>
       </BodySectionWithCard>
@@ -137,7 +137,7 @@ export default function platform() {
         }}
       >
         <p>
-        Your voice matters! Fill out this short survey to share your concerns and ideas for improving our community. Your feedback will help shape policies that reflect our residents' needs. Together, we can build a better future!
+        Your voice matters! Fill out this short survey to share your concerns and ideas for improving our community. Your feedback will help shape policies that reflect our residents&apos; needs. Together, we can build a better future!
         </p>
       </BodySectionC2A>
     </>
