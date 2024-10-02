@@ -4,6 +4,10 @@ const config: Config = {
   content: [
     "./app/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/components/Layout/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/components/misc/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/contact/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/platform/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx,css}",
   ],
   theme: {
