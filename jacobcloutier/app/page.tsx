@@ -28,7 +28,7 @@ export default function Home() {
             height={455}
           />
         }>
-          <p className="my-2 text-black-500">My name is Jacob Cloutier and I am running for the position of councilor for our beloved Marysville (Ward 5).
+          <p className="my-2 ">My name is Jacob Cloutier and I am running for the position of councilor for our beloved Marysville (Ward 5).
             <br/><br/>If elected, there are four key areas I plan to address:
           </p>
           <AnimatedList list={[
@@ -78,7 +78,7 @@ export default function Home() {
           target:"_blank"
         }}
       >
-        <p>Your voice matters! Fill out this short survey to share your concerns and ideas for improving our community. Your feedback will help shape policies that reflect our residents&apos; needs. Together, we can build a better future!</p>
+        <p >Your voice matters! Fill out this short survey to share your concerns and ideas for improving our community. Your feedback will help shape policies that reflect our residents&apos; needs. Together, we can build a better future!</p>
       </BodySectionC2A>
     </>
   );

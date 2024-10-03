@@ -34,17 +34,17 @@ const Hero = ({
 
   return (
     <div
-      className="bg-yellow-500  pt-16 sm:pt-20 px-0 sm:px-8 xl:px-16 mx-auto"
+      className="bg-primary-300  pt-16 sm:pt-20 px-0 sm:px-8 xl:px-16 mx-auto"
       id="about"
     >
       <LoadAnimationWrapper className="max-w-screen-xl mx-auto">
           <div className=" grid grid-flow-row sm:grid-flow-col sm:grid-rows-1 sm:grid-cols-2 gap-8">
-            <div className="flex bg-yellow-500 flex-col justify-center items-start row-start-2 py-4 z-10 sm sm:py-0 px-4 sm:row-start-1 sm:px-0">
+            <div className="flex bg-primary-300 flex-col justify-center items-start row-start-2 py-4 z-10 sm sm:py-0 px-4 sm:row-start-1 sm:px-0">
               <h1 className="mb-4">
-                <span className="font-extrabold text-3xl lg:text-4xl xl:text-5xl text-black-600 leading-normal">{header}</span> <br/>
-                <span className="font-bold text-lg lg:text-xl">{subHeader}</span>
+                <span className="font-extrabold text-3xl lg:text-4xl xl:text-5xl leading-normal">{header}</span> <br/>
+                <span className="font-bold text-lg lg:text-xl ">{subHeader}</span>
               </h1>
-              <span className="font-light text-lg lg:text-xl">
+              <span className=" font-light text-lg lg:text-xl">
               {description}
               </span>
               {button}
@@ -77,7 +77,7 @@ const Hero = ({
                     custom={{delay: 0.2 + (0.2 * index)}}
                     variants={loadAnimation}
                   >
-                    <LiaCheckCircle size={"30px"} className="text-green-500" />
+                    <LiaCheckCircle size={"30px"} className="text-primary-500" />
                   </motion.span>
                   <p className="text-xl mb-0 text-black-600 font-bold">
                     Vote {feature.name}

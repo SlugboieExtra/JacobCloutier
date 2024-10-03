@@ -10,7 +10,7 @@ const ButtonInline = ({href, children, target = "", addClass = "", props = {} })
       {...props}
       className={
         addClass+
-        " inline-flex mt-4 text-sm p-2 lg:py-4 px-4 lg:px-6 text-white-500 font-semibold bg-orange-500 hover:shadow-orange-md transition-all outline-none" 
+        " inline-flex mt-4 text-sm p-2 lg:py-4 px-4 lg:px-6 text-white-500 font-semibold bg-secondary-500 hover:shadow-md transition-all outline-none hoverRaise" 
         
       }
     >

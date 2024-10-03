@@ -26,7 +26,7 @@ const Header = () => {
       link : "/contact"
     }
   ]
-  
+
   return (
     <>
       <header
@@ -54,8 +54,8 @@ const Header = () => {
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (pathName === navLink.link
-                  ? " text-orange-500 animation-active "
-                  : " text-black-500 hover:text-orange-500 a")
+                  ? " text-secondary-500 animation-active "
+                  : " text-black-500 hover:text-secondary-500 a")
               }
             >
               {navLink.title}
@@ -90,7 +90,7 @@ const Header = () => {
               className={
                 "mx-1 sm:mx-2 cursor-pointer text-center px-3 sm:px-4 py-2 w-auto block items-center text-s border-t-2 transition-all " +
                 (pathName === navLink.link
-                  ? "  border-orange-500 text-orange-500"
+                  ? "  border-secondary-500 text-secondary-500"
                   : " border-transparent")
               }
             >

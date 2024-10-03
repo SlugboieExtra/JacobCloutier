@@ -10,7 +10,7 @@ const ButtonPrimary = ({href, children, target = "", addClass = "", props = {} }
       {...props}
       className={
         addClass+
-        " py-3 text-center lg:py-4 px-12 lg:px-16 text-white-500 font-semibold bg-orange-500 hover:shadow-orange-md transition-all outline-none " 
+        " py-3 text-center lg:py-4 px-12 lg:px-16 text-white-500 font-semibold bg-secondary-500 hover:shadow-md transition-all outline-none hoverRaise" 
       }
     >
       {children}
