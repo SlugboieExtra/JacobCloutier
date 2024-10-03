@@ -12,7 +12,7 @@ import { LiaCheckCircle } from "react-icons/lia";
 
 const Hero = ({
   header ='Jacob Cloutier',
-  subHeader = 'for Ward 5 Fredericton City Counsil.', 
+  subHeader = 'for Ward 5 Fredericton City Council.', 
   description = <p className="flex"><FaQuoteLeft className="inline mr-2 -mt-4 text-5xl"/><span>My goal is to help Fredericton and Marysville grow in a meaningful, sustainable way that has a positive impact not just for today but for those coming tomorrow.</span><FaQuoteRight className="inline ml-2 -mt-4 text-5xl"/></p>, 
   button = <ButtonPrimary target="_blank" addClass="w-full" href='https://calendly.com/jacobcloutier/30min'>Schedule a Meeting</ButtonPrimary>,
   featureList = [

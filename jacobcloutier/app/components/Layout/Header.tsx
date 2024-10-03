@@ -22,6 +22,10 @@ const Header = () => {
       link : "/platform"
     },
     {
+      title : "Ward 5",
+      link : "/ward5-marysville"
+    },
+    {
       title : "Contact",
       link : "/contact"
     }

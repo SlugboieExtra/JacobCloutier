@@ -71,7 +71,7 @@ export default function Home() {
         <p>Born and raised in Maryville, this is where my family calls home. My passion lies in spending quality time with family and in our community. Volunteering and living in different parts of Maryville I have been exposed to many diverse lifestyles and community challenges. Being driven by a thirst for knowledge and always seeking solutions, I aim to understand and address these challenges to improve our ward for my family and yours.</p>
       </BodySectionWithCard>
       <BodySectionC2A
-        header="Community Concerns Survay"
+        header="Community Concerns Survey"
         button={{
           title:"Have Your Voice Heard",
           href:"https://docs.google.com/forms/d/e/1FAIpQLScpOHV8b15clE_aoBj7Jo_BqqpUWUu49Uhgg27mJFD16yPQOw/viewform",

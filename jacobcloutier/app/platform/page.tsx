@@ -56,7 +56,7 @@ export default function platform() {
         }>
         <h3 className="mb-2 mt-6 text-xl tracking-tight font-bold text-black-500">Councillor Wage Control</h3>
         <p>
-          The recent decision by Fredericton&apos;s councillors and mayor to approve a pay raise for themselves (34% increase) is concerning to me. I share Councilor Hicks&apos; sentiment that this was not the appropriate time or manner to address such a matter. I believe there should be a structured system in place to regulate the wages of councilors and the mayor. In a gesture of goodwill, I am committed to addressing this issue and hopefully even reverse the decision until a more appropriate time or until a structured system is in place.
+          The recent decision by Fredericton&apos;s councillors and mayor to approve a pay raise for themselves (34% increase) is concerning to me. I share Councillor Hicks&apos; sentiment that this was not the appropriate time or manner to address such a matter. I believe there should be a structured system in place to regulate the wages of councillors and the mayor. In a gesture of goodwill, I am committed to addressing this issue and hopefully even reverse the decision until a more appropriate time or until a structured system is in place.
         </p>
         <h3 className="mb-2 mt-6 text-xl tracking-tight font-bold text-black-500">Investing in Growth</h3>
         <p>
@@ -80,7 +80,7 @@ export default function platform() {
           </Card>}
       >
         <h3 className="mb-2 mt-6 text-xl tracking-tight font-bold text-black-500">Provincial Support</h3>
-        <p>As May 2026 approaches I am preparing to run for Ward 5 city Council. Change is needed as our city has faced growing challenges in social programs such as welfare and housing, and we should not be left to shoulder this burden alone. As your councilor, I’ll work to make the province more accountable. We need better cooperation between city and provincial authorities to address these pressing issues. Together, we will advocate for a fairer distribution of resources and support for our community.</p>
+        <p>As May 2026 approaches I am preparing to run for Ward 5 city Council. Change is needed as our city has faced growing challenges in social programs such as welfare and housing, and we should not be left to shoulder this burden alone. As your councillor, I’ll work to make the province more accountable. We need better cooperation between city and provincial authorities to address these pressing issues. Together, we will advocate for a fairer distribution of resources and support for our community.</p>
         <h3 className="mb-2 mt-6 text-xl tracking-tight font-bold text-black-500">Roads & bridges</h3>
         <p>The ongoing problems with several bridges and roads in recent years have been a significant concern that requires urgent resolution. Many of these issues seem to stem from provincial jurisdiction over these bridges and roads. I believe it&apos;s time for Fredericton to negotiate with the province to gain control over these infrastructures, allowing us to ensure their proper maintenance and upkeep. </p>
         <h3 className="mb-2 mt-6 text-xl tracking-tight font-bold text-black-500">Provincial Respect</h3>
@@ -98,7 +98,7 @@ export default function platform() {
           </Card>}
         >
           <h3 className="mb-2 mt-6 text-xl tracking-tight font-bold text-black-500">Sidewalks</h3>
-          <p>The City has struggled to prioritize addressing the glaring issue of our sidewalks during the winter months. These pathways are relied upon by some of our most vulnerable residents for travel, yet they often become dangerous and impassable. If voted councilor, I am committed to dedicating the necessary time and effort to tackle this issue head-on. I have already engaged with engineers who believe there are simple and cost-effective solutions available. They are prepared to draft these plans for as little as $1000. I am determined to raise the funds required to bring these plans to the city immediately, rather than delaying any further. It&apos;s imperative that we take action now to address this problem and ensure the safety and accessibility of our city for all residents.</p>
+          <p>The City has struggled to prioritize addressing the glaring issue of our sidewalks during the winter months. These pathways are relied upon by some of our most vulnerable residents for travel, yet they often become dangerous and impassable. If voted councillor, I am committed to dedicating the necessary time and effort to tackle this issue head-on. I have already engaged with engineers who believe there are simple and cost-effective solutions available. They are prepared to draft these plans for as little as $1000. I am determined to raise the funds required to bring these plans to the city immediately, rather than delaying any further. It&apos;s imperative that we take action now to address this problem and ensure the safety and accessibility of our city for all residents.</p>
           <h3 className="mb-2 mt-6 text-xl tracking-tight font-bold text-black-500">Roads & Bridges</h3>
           <p>The ongoing problems with several bridges and roads in recent years have been a significant concern that requires urgent resolution. Many of these issues seem to stem from provincial jurisdiction over these bridges and roads. I believe it&apos;s time for Fredericton to negotiate with the province to gain control over these infrastructures, allowing us to ensure their proper maintenance and upkeep. </p>
       </BodySectionWithCard>
@@ -134,7 +134,7 @@ export default function platform() {
         <p>As part of my commitment to enhancing connectivity and access to information across our community, I would seek to expand the Fredericton free Wi-Fi program to include Maryville. This initiative would bridge what I see as a gap with the current service, ensuring that residents in all parts of our city have equal access to online resources for education, business, and communication. By expanding free Wi-Fi to Maryville, we will support local businesses, increase access to essential services, and create more opportunities for residents to engage with their community and the broader world. This is a crucial step towards making Fredericton a more connected and inclusive place.</p>
       </BodySectionWithCard>
       <BodySectionC2A
-        header="Community Concerns Survay"
+        header="Community Concerns Survey"
         button={{
           title:"Have Your Voice Heard",
           href:"https://docs.google.com/forms/d/e/1FAIpQLScpOHV8b15clE_aoBj7Jo_BqqpUWUu49Uhgg27mJFD16yPQOw/viewform",
