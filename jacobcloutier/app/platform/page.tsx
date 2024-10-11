@@ -5,10 +5,10 @@ import BodySectionWithCard from "../components/Layout/BodySectionWithCard";
 import C2A from "../components/Layout/C2A";
 import Card from "../components/Layout/Card";
 
-import cityHallImage from "../public/assets/fredericton-city-hall.avif"
-import newDevelopmentImage from "../public/assets/new-housing-development-brampton.avif"
-import snowRemovalImage from "../public/assets/snow-removal.jpg"
-import engagueFrederictonImage from "../public/assets/logo_resize_pjeg.jpg"
+import cityHallImage from "../public/assets/fredericton-city-hall.png"
+import newDevelopmentImage from "../public/assets/new-housing-development-brampton.png"
+import snowRemovalImage from "../public/assets/snow-removal.png"
+import engagueFrederictonImage from "../public/assets/logo_resize_pjeg.png"
 
 export default function platform() {
 
